@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             line-height: 1.8;
@@ -18,6 +20,7 @@
             min-height: 100vh;
             padding: 20px;
         }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -26,27 +29,35 @@
             border-radius: 20px;
             box-shadow: 0 10px 40px rgba(200, 80, 192, 0.15);
         }
+
         .header {
             text-align: center;
             margin-bottom: 50px;
             padding-bottom: 30px;
             border-bottom: 3px solid #FFE5F0;
         }
-        .logo {
-            font-size: 48px;
-            margin-bottom: 20px;
+
+        .logo-img {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: contain;
         }
+
         h1 {
             color: #6B2060;
             font-size: 36px;
             margin-bottom: 15px;
             font-weight: 900;
         }
+
         .last-updated {
             color: #8B6089;
             font-size: 15px;
             font-weight: 600;
         }
+
         h2 {
             color: #6B2060;
             font-size: 26px;
@@ -56,6 +67,7 @@
             border-left: 5px solid #C850C0;
             padding-left: 15px;
         }
+
         h3 {
             color: #8B6089;
             font-size: 20px;
@@ -63,21 +75,26 @@
             margin-bottom: 15px;
             font-weight: 700;
         }
+
         p {
             margin-bottom: 18px;
             color: #555;
             font-size: 16px;
         }
-        ul, ol {
+
+        ul,
+        ol {
             margin-left: 30px;
             margin-bottom: 20px;
         }
+
         li {
             margin-bottom: 12px;
             color: #555;
             font-size: 16px;
             line-height: 1.6;
         }
+
         .warning-box {
             background: #FFF3E0;
             padding: 25px;
@@ -85,6 +102,7 @@
             margin: 25px 0;
             border-left: 5px solid #FF9800;
         }
+
         .contact-box {
             background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
             padding: 30px;
@@ -92,6 +110,7 @@
             margin-top: 40px;
             border: 2px solid #4CAF50;
         }
+
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -100,47 +119,60 @@
             color: #8B6089;
             font-size: 15px;
         }
+
         a {
             color: #C850C0;
             text-decoration: none;
             font-weight: 600;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         strong {
             color: #6B2060;
             font-weight: 700;
         }
+
         @media (max-width: 768px) {
             .container {
                 padding: 30px 20px;
             }
+
             h1 {
                 font-size: 28px;
             }
+
             h2 {
                 font-size: 22px;
+            }
+
+            .logo-img {
+                width: 80px;
+                height: 80px;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo">🌸</div>
+            <img src="logo_mark.png" alt="JioShe Logo" class="logo-img">
             <h1>JioShe Terms of Service</h1>
             <p class="last-updated">Last Updated: May 14, 2026</p>
         </div>
 
         <h2>AGREEMENT TO TERMS</h2>
-        <p>By accessing or using JioShe ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App.</p>
+        <p>By accessing or using JioShe ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you
+            do not agree, do not use the App.</p>
         <p><strong>Developer:</strong> JioShe (Individual Developer)</p>
         <p><strong>Contact:</strong> <a href="mailto:jioshe0204@gmail.com">jioshe0204@gmail.com</a></p>
         <p><strong>Location:</strong> Sri Lanka</p>
 
         <h2>1. DESCRIPTION OF SERVICE</h2>
-        
+
         <h3>1.1 What JioShe Is</h3>
         <p>JioShe is a women's health and wellness mobile application that provides:</p>
         <ul>
@@ -173,7 +205,7 @@
         </ul>
 
         <h2>2. ELIGIBILITY</h2>
-        
+
         <h3>2.1 Age Requirement</h3>
         <ul>
             <li>You must be 13 years or older to use JioShe</li>
@@ -189,7 +221,7 @@
         </ul>
 
         <h2>3. USER RESPONSIBILITIES</h2>
-        
+
         <h3>3.1 Appropriate Use</h3>
         <p>You agree to use JioShe only for:</p>
         <ul>
@@ -211,7 +243,7 @@
         </ul>
 
         <h2>4. MEDICAL DISCLAIMER</h2>
-        
+
         <div class="warning-box">
             <h3>4.1 Not Medical Advice</h3>
             <ul>
@@ -252,7 +284,7 @@
         </ul>
 
         <h2>6. LIMITATION OF LIABILITY</h2>
-        
+
         <h3>6.1 No Warranties</h3>
         <p>JioShe is provided "AS IS" without warranties of any kind.</p>
 
@@ -264,7 +296,7 @@
         </ul>
 
         <h2>7. TERMINATION</h2>
-        
+
         <h3>7.1 Your Right to Terminate</h3>
         <ul>
             <li>You can delete your account anytime through Settings</li>
@@ -275,7 +307,7 @@
         <p>We may suspend or terminate your account if you violate these Terms.</p>
 
         <h2>8. DISPUTE RESOLUTION</h2>
-        
+
         <h3>8.1 Governing Law</h3>
         <p>These Terms are governed by the laws of Sri Lanka.</p>
 
@@ -286,7 +318,8 @@
         </ol>
 
         <h2>9. CHANGES TO TERMS</h2>
-        <p>We may update these Terms to reflect new features or legal requirements. Changes will be posted in the App with the "Last Updated" date.</p>
+        <p>We may update these Terms to reflect new features or legal requirements. Changes will be posted in the App
+            with the "Last Updated" date.</p>
 
         <h2>10. ACKNOWLEDGMENT</h2>
         <p>By using JioShe, you acknowledge that:</p>
@@ -313,4 +346,5 @@
         </div>
     </div>
 </body>
+
 </html>

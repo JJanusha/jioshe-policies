@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
             padding: 0;
             box-sizing: border-box;
         }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
             line-height: 1.8;
@@ -18,6 +20,7 @@
             min-height: 100vh;
             padding: 20px;
         }
+
         .container {
             max-width: 900px;
             margin: 0 auto;
@@ -26,27 +29,35 @@
             border-radius: 20px;
             box-shadow: 0 10px 40px rgba(200, 80, 192, 0.15);
         }
+
         .header {
             text-align: center;
             margin-bottom: 50px;
             padding-bottom: 30px;
             border-bottom: 3px solid #FFE5F0;
         }
-        .logo {
-            font-size: 48px;
-            margin-bottom: 20px;
+
+        .logo-img {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: contain;
         }
+
         h1 {
             color: #6B2060;
             font-size: 36px;
             margin-bottom: 15px;
             font-weight: 900;
         }
+
         .last-updated {
             color: #8B6089;
             font-size: 15px;
             font-weight: 600;
         }
+
         h2 {
             color: #6B2060;
             font-size: 26px;
@@ -56,6 +67,7 @@
             border-left: 5px solid #C850C0;
             padding-left: 15px;
         }
+
         h3 {
             color: #8B6089;
             font-size: 20px;
@@ -63,21 +75,25 @@
             margin-bottom: 15px;
             font-weight: 700;
         }
+
         p {
             margin-bottom: 18px;
             color: #555;
             font-size: 16px;
         }
+
         ul {
             margin-left: 30px;
             margin-bottom: 20px;
         }
+
         li {
             margin-bottom: 12px;
             color: #555;
             font-size: 16px;
             line-height: 1.6;
         }
+
         .highlight-box {
             background: #FFF3E0;
             padding: 25px;
@@ -85,6 +101,7 @@
             margin: 25px 0;
             border-left: 5px solid #FF9800;
         }
+
         .contact-box {
             background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
             padding: 30px;
@@ -92,6 +109,7 @@
             margin-top: 40px;
             border: 2px solid #4CAF50;
         }
+
         .footer {
             text-align: center;
             margin-top: 50px;
@@ -100,46 +118,61 @@
             color: #8B6089;
             font-size: 15px;
         }
+
         a {
             color: #C850C0;
             text-decoration: none;
             font-weight: 600;
         }
+
         a:hover {
             text-decoration: underline;
         }
+
         strong {
             color: #6B2060;
             font-weight: 700;
         }
+
         @media (max-width: 768px) {
             .container {
                 padding: 30px 20px;
             }
+
             h1 {
                 font-size: 28px;
             }
+
             h2 {
                 font-size: 22px;
+            }
+
+            .logo-img {
+                width: 80px;
+                height: 80px;
             }
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <div class="logo">🌸</div>
+            <img src="logo_mark.png" alt="JioShe Logo" class="logo-img">
             <h1>JioShe Privacy Policy</h1>
             <p class="last-updated">Last Updated: May 14, 2026</p>
         </div>
 
         <h2>INTRODUCTION</h2>
-        <p>JioShe ("we," "our," or "us") is a women's health and wellness application developed by an individual developer in Sri Lanka. We are committed to protecting your privacy and handling your personal health information with care and respect.</p>
-        <p>This Privacy Policy explains how we collect, use, store, and protect your information when you use the JioShe mobile application.</p>
+        <p>JioShe ("we," "our," or "us") is a women's health and wellness application developed by an individual
+            developer in Sri Lanka. We are committed to protecting your privacy and handling your personal health
+            information with care and respect.</p>
+        <p>This Privacy Policy explains how we collect, use, store, and protect your information when you use the JioShe
+            mobile application.</p>
         <p><strong>Contact:</strong> <a href="mailto:jioshe0204@gmail.com">jioshe0204@gmail.com</a></p>
 
         <h2>1. INFORMATION WE COLLECT</h2>
-        
+
         <h3>1.1 Health Data You Provide</h3>
         <p>When you use JioShe, you may provide:</p>
         <ul>
@@ -155,8 +188,10 @@
 
         <h3>1.2 Images (Temporary Processing Only)</h3>
         <ul>
-            <li><strong>Breast health guidance images:</strong> Processed temporarily by AI, NEVER stored permanently, deleted immediately after analysis</li>
-            <li><strong>Skin/symptom photos:</strong> For AI analysis, processed temporarily and deleted after analysis</li>
+            <li><strong>Breast health guidance images:</strong> Processed temporarily by AI, NEVER stored permanently,
+                deleted immediately after analysis</li>
+            <li><strong>Skin/symptom photos:</strong> For AI analysis, processed temporarily and deleted after analysis
+            </li>
             <li><strong>No human ever views these images</strong> - All processing is automated via AI</li>
         </ul>
 
@@ -183,7 +218,7 @@
         </ul>
 
         <h2>2. HOW WE USE YOUR INFORMATION</h2>
-        
+
         <h3>2.1 Core App Functions</h3>
         <ul>
             <li>Track and predict menstrual cycles with AI algorithms</li>
@@ -199,7 +234,8 @@
             <li>Personalize menstrual cycle predictions using machine learning models</li>
             <li>Identify PCOS symptom patterns and correlations</li>
             <li>Provide wellness recommendations through Serah AI chatbot (powered by Google Gemini)</li>
-            <li>Your data is anonymized (personal identifiers removed) and NEVER used to train public AI models like ChatGPT or Gemini</li>
+            <li>Your data is anonymized (personal identifiers removed) and NEVER used to train public AI models like
+                ChatGPT or Gemini</li>
         </ul>
 
         <h3>2.3 Future Telemedicine (Not Yet Available)</h3>
@@ -210,7 +246,7 @@
         </ul>
 
         <h2>3. HOW WE PROTECT YOUR INFORMATION</h2>
-        
+
         <h3>3.1 Encryption</h3>
         <ul>
             <li>All health data is encrypted in transit using HTTPS/TLS</li>
@@ -236,10 +272,11 @@
         </ul>
 
         <h2>4. DATA SHARING AND THIRD PARTIES</h2>
-        
+
         <div class="highlight-box">
             <h3>4.1 We DO NOT Sell Your Data</h3>
-            <p><strong>Your health information is NEVER sold to data brokers, advertisers, pharmaceutical companies, insurance companies, social media platforms, or any third party.</strong></p>
+            <p><strong>Your health information is NEVER sold to data brokers, advertisers, pharmaceutical companies,
+                    insurance companies, social media platforms, or any third party.</strong></p>
         </div>
 
         <h3>4.2 Service Providers We Use</h3>
@@ -249,13 +286,15 @@
             <li><strong>Google Gemini AI:</strong> AI-powered health insights, chatbot, and image analysis</li>
             <li><strong>Firebase Cloud Functions:</strong> Serverless backend operations</li>
         </ul>
-        <p>These services are bound by strict privacy agreements and process data only as needed for app functionality.</p>
+        <p>These services are bound by strict privacy agreements and process data only as needed for app functionality.
+        </p>
 
         <h3>4.3 Legal Requirements</h3>
-        <p>We may disclose information if required by valid court orders, government authorities, or law enforcement.</p>
+        <p>We may disclose information if required by valid court orders, government authorities, or law enforcement.
+        </p>
 
         <h2>5. YOUR PRIVACY RIGHTS</h2>
-        
+
         <h3>5.1 Right to Access</h3>
         <ul>
             <li>View all your health data within the app at any time</li>
@@ -303,7 +342,8 @@
         </ul>
 
         <h2>8. INTERNATIONAL DATA TRANSFERS</h2>
-        <p>Your data is stored on Google Firebase servers, which may be located outside Sri Lanka. We ensure appropriate safeguards:</p>
+        <p>Your data is stored on Google Firebase servers, which may be located outside Sri Lanka. We ensure appropriate
+            safeguards:</p>
         <ul>
             <li>Google complies with GDPR and international privacy frameworks</li>
             <li>Data transfers use standard contractual clauses</li>
@@ -334,7 +374,8 @@
             <li>Changes in legal requirements</li>
             <li>Updates to our data practices</li>
         </ul>
-        <p>Changes will be posted in the app with the "Last Updated" date. Continued use after changes indicates acceptance.</p>
+        <p>Changes will be posted in the app with the "Last Updated" date. Continued use after changes indicates
+            acceptance.</p>
 
         <h2>12. YOUR CONSENT</h2>
         <p>By using JioShe, you consent to this Privacy Policy and our data practices.</p>
@@ -342,7 +383,8 @@
         <div class="highlight-box">
             <h2>SPECIAL NOTICE ABOUT HEALTH DATA</h2>
             <p><strong>JioShe is a wellness tracking application, NOT a medical device.</strong></p>
-            <p>We provide tools for self-tracking and education but do NOT provide medical advice, diagnosis, or treatment.</p>
+            <p>We provide tools for self-tracking and education but do NOT provide medical advice, diagnosis, or
+                treatment.</p>
             <ul>
                 <li>For medical concerns, consult a qualified healthcare professional</li>
                 <li>For emergencies, call 1990 (Sri Lanka Emergency Services)</li>
@@ -366,4 +408,5 @@
         </div>
     </div>
 </body>
+
 </html>
