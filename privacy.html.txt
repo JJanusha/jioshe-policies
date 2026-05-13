@@ -136,7 +136,7 @@
         <h2>INTRODUCTION</h2>
         <p>JioShe ("we," "our," or "us") is a women's health and wellness application developed by an individual developer in Sri Lanka. We are committed to protecting your privacy and handling your personal health information with care and respect.</p>
         <p>This Privacy Policy explains how we collect, use, store, and protect your information when you use the JioShe mobile application.</p>
-        <p><strong>Contact:</strong> <a href="mailto:jioshe024@gmail.com">jioshe024@gmail.com</a></p>
+        <p><strong>Contact:</strong> <a href="mailto:jioshe0204@gmail.com">jioshe0204@gmail.com</a></p>
 
         <h2>1. INFORMATION WE COLLECT</h2>
         
@@ -259,7 +259,7 @@
         <h3>5.1 Right to Access</h3>
         <ul>
             <li>View all your health data within the app at any time</li>
-            <li>Request a complete copy of your data via email: jioshe024@gmail.com</li>
+            <li>Request a complete copy of your data via email: jioshe0204@gmail.com</li>
         </ul>
 
         <h3>5.2 Right to Correct</h3>
@@ -270,14 +270,14 @@
         <h3>5.3 Right to Delete</h3>
         <ul>
             <li>Delete your account and all associated data through Settings</li>
-            <li>Request deletion via email: jioshe024@gmail.com</li>
+            <li>Request deletion via email: jioshe0204@gmail.com</li>
             <li>Data is permanently deleted from all systems within 30 days</li>
         </ul>
 
         <h3>5.4 Right to Export</h3>
         <ul>
             <li>Request a copy of your data in machine-readable format</li>
-            <li>Contact: jioshe024@gmail.com</li>
+            <li>Contact: jioshe0204@gmail.com</li>
         </ul>
 
         <h3>5.5 Right to Opt Out</h3>
@@ -353,7 +353,7 @@
         <div class="contact-box">
             <h2>CONTACT US</h2>
             <p>For privacy concerns, questions, or data requests:</p>
-            <p><strong>📧 Email:</strong> <a href="mailto:jioshe024@gmail.com">jioshe024@gmail.com</a></p>
+            <p><strong>📧 Email:</strong> <a href="mailto:jioshe0204@gmail.com">jioshe0204@gmail.com</a></p>
             <p><strong>👤 Developer:</strong> JioShe (Individual Developer)</p>
             <p><strong>📍 Location:</strong> Sri Lanka</p>
             <p><strong>⏱️ Response Time:</strong> We will respond to all inquiries within 7 business days</p>
