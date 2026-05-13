@@ -161,7 +161,7 @@
         <div class="header">
             <img src="logo_mark.png" alt="JioShe Logo" class="logo-img">
             <h1>JioShe Terms of Service</h1>
-            <p class="last-updated">Last Updated: May 14, 2026</p>
+            <p class="last-updated">Last Updated: May 13, 2026</p>
         </div>
 
         <h2>AGREEMENT TO TERMS</h2>
@@ -341,7 +341,7 @@
 
         <div class="footer">
             <p><strong>© 2026 JioShe. All rights reserved.</strong></p>
-            <p>These Terms of Service were last updated on May 14, 2026</p>
+            <p>These Terms of Service were last updated on May 13, 2026</p>
             <p>Version 1.0</p>
         </div>
     </div>
