@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JioShe - Terms of Service</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #FFE5F0 0%, #FFF0F8 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(200, 80, 192, 0.15);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 3px solid #FFE5F0;
+        }
+        .logo {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #6B2060;
+            font-size: 36px;
+            margin-bottom: 15px;
+            font-weight: 900;
+        }
+        .last-updated {
+            color: #8B6089;
+            font-size: 15px;
+            font-weight: 600;
+        }
+        h2 {
+            color: #6B2060;
+            font-size: 26px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-weight: 800;
+            border-left: 5px solid #C850C0;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #8B6089;
+            font-size: 20px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 18px;
+            color: #555;
+            font-size: 16px;
+        }
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 12px;
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .warning-box {
+            background: #FFF3E0;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            border-left: 5px solid #FF9800;
+        }
+        .contact-box {
+            background: linear-gradient(135deg, #E8F5E9 0%, #F1F8E9 100%);
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 40px;
+            border: 2px solid #4CAF50;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 3px solid #FFE5F0;
+            color: #8B6089;
+            font-size: 15px;
+        }
+        a {
+            color: #C850C0;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            color: #6B2060;
+            font-weight: 700;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🌸</div>
+            <h1>JioShe Terms of Service</h1>
+            <p class="last-updated">Last Updated: May 14, 2026</p>
+        </div>
+
+        <h2>AGREEMENT TO TERMS</h2>
+        <p>By accessing or using JioShe ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App.</p>
+        <p><strong>Developer:</strong> JioShe (Individual Developer)</p>
+        <p><strong>Contact:</strong> <a href="mailto:jioshe024@gmail.com">jioshe024@gmail.com</a></p>
+        <p><strong>Location:</strong> Sri Lanka</p>
+
+        <h2>1. DESCRIPTION OF SERVICE</h2>
+        
+        <h3>1.1 What JioShe Is</h3>
+        <p>JioShe is a women's health and wellness mobile application that provides:</p>
+        <ul>
+            <li>Menstrual cycle tracking and predictions</li>
+            <li>PCOS symptom tracking and pattern analysis</li>
+            <li>Breast health awareness and self-examination guidance</li>
+            <li>AI-powered health chatbot (Serah AI)</li>
+            <li>Daily health logging (mood, symptoms, water, sleep)</li>
+            <li>Medication reminders</li>
+            <li>BMI tracking and health goals</li>
+            <li>Educational health content</li>
+        </ul>
+
+        <div class="warning-box">
+            <h3>1.2 What JioShe Is NOT</h3>
+            <ul>
+                <li>JioShe is NOT a medical device</li>
+                <li>JioShe does NOT diagnose, treat, cure, or prevent any disease</li>
+                <li>JioShe does NOT provide medical advice</li>
+                <li>JioShe does NOT replace consultations with healthcare professionals</li>
+                <li>JioShe is NOT intended for emergency situations</li>
+            </ul>
+        </div>
+
+        <h3>1.3 Future Features (Not Yet Available)</h3>
+        <ul>
+            <li>Telemedicine consultations with doctors</li>
+            <li>Multi-language support (Sinhala, Tamil)</li>
+            <li>Advanced ML cycle predictions</li>
+        </ul>
+
+        <h2>2. ELIGIBILITY</h2>
+        
+        <h3>2.1 Age Requirement</h3>
+        <ul>
+            <li>You must be 13 years or older to use JioShe</li>
+            <li>Users under 18 should review these Terms with a parent or guardian</li>
+            <li>By using JioShe, you confirm you meet the age requirement</li>
+        </ul>
+
+        <h3>2.2 Account Security</h3>
+        <ul>
+            <li>You must provide accurate information</li>
+            <li>You are responsible for maintaining account security</li>
+            <li>You must notify us immediately of unauthorized access</li>
+        </ul>
+
+        <h2>3. USER RESPONSIBILITIES</h2>
+        
+        <h3>3.1 Appropriate Use</h3>
+        <p>You agree to use JioShe only for:</p>
+        <ul>
+            <li>Personal health tracking and wellness</li>
+            <li>Educational purposes</li>
+            <li>Self-care and awareness</li>
+        </ul>
+
+        <h3>3.2 Prohibited Uses</h3>
+        <p>You may NOT:</p>
+        <ul>
+            <li>Use JioShe for medical diagnosis or treatment decisions</li>
+            <li>Share your account with others</li>
+            <li>Provide false or misleading information</li>
+            <li>Use the App for commercial purposes without permission</li>
+            <li>Attempt to hack or compromise the App</li>
+            <li>Upload harmful content</li>
+            <li>Violate any applicable laws</li>
+        </ul>
+
+        <h2>4. MEDICAL DISCLAIMER</h2>
+        
+        <div class="warning-box">
+            <h3>4.1 Not Medical Advice</h3>
+            <ul>
+                <li>JioShe provides information for educational purposes only</li>
+                <li>Always consult qualified healthcare professionals for medical advice</li>
+            </ul>
+        </div>
+
+        <h3>4.2 Emergency Situations</h3>
+        <ul>
+            <li>JioShe is NOT for emergencies</li>
+            <li>For medical emergencies, call 1990 (Sri Lanka) immediately</li>
+            <li>For urgent concerns, see a doctor</li>
+        </ul>
+
+        <h3>4.3 Breast Health Feature</h3>
+        <ul>
+            <li>AI-guided self-examination is for educational awareness only</li>
+            <li>It is NOT a medical screening or diagnostic tool</li>
+            <li>It does NOT replace mammograms or doctor examinations</li>
+            <li>Any concerning symptoms require immediate medical evaluation</li>
+        </ul>
+
+        <h3>4.4 PCOS and Cycle Tracking</h3>
+        <ul>
+            <li>Predictions are estimates based on your data</li>
+            <li>The App cannot diagnose PCOS</li>
+            <li>Do NOT rely on predictions as contraception</li>
+        </ul>
+
+        <h2>5. INTELLECTUAL PROPERTY</h2>
+        <p>All content and functionality of JioShe are owned by the developer:</p>
+        <ul>
+            <li>Logo, branding, design</li>
+            <li>Software code and algorithms</li>
+            <li>Educational content</li>
+            <li>AI models and predictions</li>
+        </ul>
+
+        <h2>6. LIMITATION OF LIABILITY</h2>
+        
+        <h3>6.1 No Warranties</h3>
+        <p>JioShe is provided "AS IS" without warranties of any kind.</p>
+
+        <h3>6.2 Liability Limits</h3>
+        <ul>
+            <li>We are NOT liable for any health decisions you make using the App</li>
+            <li>We are NOT liable for indirect or consequential damages</li>
+            <li>Our total liability is limited to the amount you paid for the App</li>
+        </ul>
+
+        <h2>7. TERMINATION</h2>
+        
+        <h3>7.1 Your Right to Terminate</h3>
+        <ul>
+            <li>You can delete your account anytime through Settings</li>
+            <li>Your data will be permanently deleted within 30 days</li>
+        </ul>
+
+        <h3>7.2 Our Right to Terminate</h3>
+        <p>We may suspend or terminate your account if you violate these Terms.</p>
+
+        <h2>8. DISPUTE RESOLUTION</h2>
+        
+        <h3>8.1 Governing Law</h3>
+        <p>These Terms are governed by the laws of Sri Lanka.</p>
+
+        <h3>8.2 Dispute Process</h3>
+        <ol>
+            <li>Contact us at jioshe024@gmail.com to resolve informally</li>
+            <li>If unresolved, disputes will be handled in courts of Sri Lanka</li>
+        </ol>
+
+        <h2>9. CHANGES TO TERMS</h2>
+        <p>We may update these Terms to reflect new features or legal requirements. Changes will be posted in the App with the "Last Updated" date.</p>
+
+        <h2>10. ACKNOWLEDGMENT</h2>
+        <p>By using JioShe, you acknowledge that:</p>
+        <ul>
+            <li>JioShe is a wellness tool, not medical advice</li>
+            <li>You should consult healthcare professionals for medical matters</li>
+            <li>You use the App at your own risk</li>
+            <li>You are responsible for your health decisions</li>
+        </ul>
+
+        <div class="contact-box">
+            <h2>CONTACT US</h2>
+            <p>Questions about these Terms?</p>
+            <p><strong>📧 Email:</strong> <a href="mailto:jioshe024@gmail.com">jioshe024@gmail.com</a></p>
+            <p><strong>👤 Developer:</strong> JioShe (Individual Developer)</p>
+            <p><strong>📍 Location:</strong> Sri Lanka</p>
+            <p>We will respond within 7 business days.</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>© 2026 JioShe. All rights reserved.</strong></p>
+            <p>These Terms of Service were last updated on May 14, 2026</p>
+            <p>Version 1.0</p>
+        </div>
+    </div>
+</body>
+</html>
